@@ -5,7 +5,7 @@ import java.util.NoSuchElementException;
 import edu.nraj.io.*;
 
 /**
- *  The {@code Bag} class represents a bag (or multiset) of 
+ *  The {@code Bag} class represents a bag (or multi-set) of 
  *  generic items. It supports insertion and iterating over the 
  *  items in arbitrary order.
  *  <p>

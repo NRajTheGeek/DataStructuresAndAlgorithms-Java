@@ -26,7 +26,8 @@ public class NonRecursiveDFS {
      * @param s the source vertex
      * @throws IllegalArgumentException unless {@code 0 <= s < V}
      */
-    public NonRecursiveDFS(Graph G, int s) {
+    @SuppressWarnings("unchecked")
+	public NonRecursiveDFS(Graph G, int s) {
         marked = new boolean[G.V()];
 
         validateVertex(s);

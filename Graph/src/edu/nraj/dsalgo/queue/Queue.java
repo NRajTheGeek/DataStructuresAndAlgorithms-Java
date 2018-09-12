@@ -18,13 +18,6 @@ import edu.nraj.dsalgo.queue.*;
  *  See {@link ResizingArrayQueue} for a version that uses a resizing array.
  *  The <em>enqueue</em>, <em>dequeue</em>, <em>peek</em>, <em>size</em>, and <em>is-empty</em>
  *  operations all take constant time in the worst case.
- *  <p>
- *  For additional documentation, see <a href="https://algs4.cs.princeton.edu/13stacks">Section 1.3</a> of
- *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
- *
- *  @author Robert Sedgewick
- *  @author Kevin Wayne
- *
  *  @param <Item> the generic type of an item in this queue
  */
 public class Queue<Item> implements Iterable<Item> {
@@ -149,20 +142,20 @@ public class Queue<Item> implements Iterable<Item> {
     }
 
 
-//    /**
-//     * Unit tests the {@code Queue} data type.
-//     *
-//     * @param args the command-line arguments
-//     */
-//    public static void main(String[] args) {
-//        Queue<String> queue = new Queue<String>();
-//        while (!StdIn.isEmpty()) {
-//            String item = StdIn.readString();
-//            if (!item.equals("-"))
-//                queue.enqueue(item);
-//            else if (!queue.isEmpty())
-//                StdOut.print(queue.dequeue() + " ");
-//        }
-//        StdOut.println("(" + queue.size() + " left on queue)");
-//    }
+    /**
+     * Unit tests the {@code Queue} data type.
+     *
+     * @param args the command-line arguments
+     */
+    public static void main(String[] args) {
+        Queue<String> queue = new Queue<String>();
+        while (!StdIn.isEmpty()) {
+            String item = StdIn.readString();
+            if (!item.equals("-"))
+                queue.enqueue(item);
+            else if (!queue.isEmpty())
+                StdOut.print(queue.dequeue() + " ");
+        }
+        StdOut.println("(" + queue.size() + " left on queue)");
+    }
 }
