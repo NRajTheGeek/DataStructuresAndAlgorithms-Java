@@ -2,8 +2,9 @@ package edu.nraj.dsalgo.queue;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-import edu.nraj.io.*;
-import edu.nraj.dsalgo.queue.*;
+
+import edu.nraj.io.StdIn;
+import edu.nraj.io.StdOut;
 /**
  *  The {@code Queue} class represents a first-in-first-out (FIFO)
  *  queue of generic items.
@@ -123,7 +124,8 @@ public class Queue<Item> implements Iterable<Item> {
     }
 
     // an iterator, doesn't implement remove() since it's optional
-    private class ListIterator<Item> implements Iterator<Item> {
+    @SuppressWarnings("hiding")
+	private class ListIterator<Item> implements Iterator<Item> {
         private Node<Item> current;
 
         public ListIterator(Node<Item> first) {

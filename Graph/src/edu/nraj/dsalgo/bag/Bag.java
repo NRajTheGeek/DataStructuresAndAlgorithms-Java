@@ -2,7 +2,6 @@ package edu.nraj.dsalgo.bag;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-import edu.nraj.io.*;
 
 /**
  *  The {@code Bag} class represents a bag (or multi-set) of 
@@ -85,7 +84,8 @@ public class Bag<Item> implements Iterable<Item> {
     }
 
     // an iterator, doesn't implement remove() since it's optional
-    private class ListIterator<Item> implements Iterator<Item> {
+    @SuppressWarnings("hiding")
+	private class ListIterator<Item> implements Iterator<Item> {
         private Node<Item> current;
 
         public ListIterator(Node<Item> first) {
