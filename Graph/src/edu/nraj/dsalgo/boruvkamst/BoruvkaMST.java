@@ -1,4 +1,4 @@
-package edu.nraj.boruvkamst;
+package edu.nraj.dsalgo.boruvkamst;
 
 import edu.nraj.dsalgo.bag.Bag;
 import edu.nraj.dsalgo.edge.Edge;
