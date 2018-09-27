@@ -2,7 +2,7 @@ package edu.nraj.dsalgo.dforder;
 
 import edu.nraj.dsalgo.digraph.Digraph;
 import edu.nraj.dsalgo.directededge.DirectedEdge;
-import edu.nraj.dsalgo.edgeweightdigraph.EdgeWeightedDigraph;
+import edu.nraj.dsalgo.edgeweighteddigraph.EdgeWeightedDigraph;
 import edu.nraj.dsalgo.queue.Queue;
 import edu.nraj.dsalgo.stack.Stack;
 import edu.nraj.io.In;

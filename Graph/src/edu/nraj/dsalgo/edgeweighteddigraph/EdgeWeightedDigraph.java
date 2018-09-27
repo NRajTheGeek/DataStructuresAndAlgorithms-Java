@@ -1,4 +1,4 @@
-package edu.nraj.dsalgo.edgeweightdigraph;
+package edu.nraj.dsalgo.edgeweighteddigraph;
 
 import edu.nraj.dsalgo.bag.Bag;
 import edu.nraj.dsalgo.directededge.DirectedEdge;

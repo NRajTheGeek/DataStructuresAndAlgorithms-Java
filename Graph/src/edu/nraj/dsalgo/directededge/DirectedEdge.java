@@ -1,6 +1,6 @@
 package edu.nraj.dsalgo.directededge;
 
-import edu.nraj.dsalgo.edgeweightdigraph.EdgeWeightedDigraph;
+import edu.nraj.dsalgo.edgeweighteddigraph.EdgeWeightedDigraph;
 import edu.nraj.io.StdOut;
 
 /**
