@@ -1,8 +1,10 @@
 package edu.nraj.dsalgo.primmst;
 
+import edu.nraj.dsalgo.boruvkamst.BoruvkaMST;
 import edu.nraj.dsalgo.edge.Edge;
 import edu.nraj.dsalgo.edgeweightedgraph.EdgeWeightedGraph;
 import edu.nraj.dsalgo.indexedminpq.IndexMinPQ;
+import edu.nraj.dsalgo.kruskal.KruskalMST;
 import edu.nraj.dsalgo.lazyprimmst.LazyPrimMST;
 import edu.nraj.dsalgo.queue.Queue;
 import edu.nraj.dsalgo.uf.UF;
